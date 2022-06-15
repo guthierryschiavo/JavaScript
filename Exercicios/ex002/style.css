@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #5CC8F2;
+}
+header{
+    text-align: center;
+}
+h1{
+    margin: 30px;
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.444);
+    background-color: beige;
+
+    line-height: 3rem;
+    padding-left: 15px;
+}
+p{
+    margin-top: 10px;
+}
+#form-group input, label {
+    cursor: pointer;
+}
+#form-group #radio2{
+    margin-left: 15px;
+}
+/*BUTTON*/
+.enviar{
+    padding: 10px;
+    border-radius:10px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: aliceblue;
+}
+/*RODAPÉ*/
+footer{
+    text-align: center;
+    margin-top: 30px;
+}

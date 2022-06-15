@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    margin: 50px;
+}
+header > h1 {
+    color: white;
+    text-align: center;
+}
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 550px;
+    height: 350px;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border-radius: 10px;
+    box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.424);
+}
+
+#msg{
+    font-size: 20px;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer > span {
+    color: white;
+    font-weight: bold;
+}
+span > a {
+    text-decoration: none;
+}
+span > a:visited {
+    color: blue;
+}
+span > a:hover {
+    color: blueviolet;
+}
