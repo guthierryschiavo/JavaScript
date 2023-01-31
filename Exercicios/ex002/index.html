@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Verificador de idade</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -13,23 +14,28 @@
     </header>
     <main>
         <section>
-            <p>Ano de Nascimento <input type="number" id="year" ></p>
-                <div id="form-group">
-                    Sexo:
-                    <input type="radio" name="radio" id="radio1">
-                    <label for="radio1">Masculino</label>
-                    <input type="radio" name="radio" id="radio2">
-                    <label for="radio2">Feminino</label>
-                </div>
-                    <button type="submit" class="enviar">Enviar</button>
-                <div>
-                    Preencha os dados acima para ver o Resultado!
-                </div>
+            <div>
+                <p>Ano de Nascimento <input type="text" name="year" id="year"></p>
+            </div>
+            <div id="gender">
+                <span>Sexo:</span>
+                <input type="radio" name="radio1" id="men">
+                <label for="">Masculino</label>
+                <input type="radio" name="radio1" id="woman">
+                <label for="">Feminino</label>
+            </div>
+            <div id="verify">
+                <input type="button" value="verificar" onclick="verificar()">
+            </div>
+            <div id="msg"></div>
+            <div id="imagens">
+                <img src="" alt="" id="image">
+            </div>
+            <h4>Preencha os dados acima para ver o resultado!</h4>
         </section>
     </main>
     <footer>
-        <span>Desenvolvido por <a href="#">Guthierry Schiavo</a></span>
+
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>

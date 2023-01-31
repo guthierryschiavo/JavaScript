@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis</title>
+</head>
+<style>
+    body {
+        background-color: rgb(33, 154, 229);
+    }
+    ul, li, h1{
+        color: white;
+    }
+</style>
+<body>
+    <h1>Dicas</h1>
+    <ul>
+        <li>Maiúsculas e minúsculas fazem diferença</li>
+        <li>Tente escolher nomes coerentes para as variáveis</li>
+        <li>Evite se tornar um 'programador alfabeto' ou um 'programador contador'</li>
+        <li></li>
+    </ul>
+    <script>
+       var n1 = Number(window.prompt("Digite um numero:")) 
+       var n2 = Number(window.prompt('Digite outro numero:'))
+       var soma = n1 + n2
+       window.alert(`A Soma enntre ${n1} e ${n2} é igual a ${soma}`)
+       
+       // number + number para adição
+       // string + string para concatenação
+       // Utilizar o Number.parseInt faz a conversão da String em Number (inteiro) 
+       // Utilizar o Float faz ficar com virgula
+       // Atualmente usa só o Number(n) para facilitar
+
+       // Ao contrario usa o String(n) e o n.toString() para converter Number -> String
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+var c = 1
+do{
+  console.log('Você tem quantos passos a fazer?')  
+}while (c <= 6){
+    console.log(`Passo ${c}`)
+    c++
+
+}
+
+
+
+/*var c = 1
+while (c <= 6){
+    console.log(`Passo ${c}`)
+    c++
+
+} // estrutura de repetição com teste lógico no ínicio. Também é possivel fazer ao contrario.
+
+
+console.log('tudo bem?')
+console.log('tudo bem?')
+console.log('tudo bem?')
+console.log('tudo bem?')
+console.log('tudo bem?')
+console.log('tudo bem?')
+
+*/
